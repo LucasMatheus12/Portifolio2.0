@@ -1,0 +1,69 @@
+body{
+    display: grid;
+    margin: 0;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cabecalho{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 140px;
+    gap: 20px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.125rem;
+}
+
+.intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 140px;
+    align-items: center;
+}
+
+.intro-imagem{
+    width: 360px;
+    height: 520px;
+}
+
+.intro-imagem img{
+    max-width: 100%;
+}
+
+.introducao h1{
+    font-weight: 700;
+    font-size: 4.5rem;
+}
+
+.experiencia{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.experiencia-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
