@@ -359,18 +359,17 @@
   color: #8f8f8f;
 }
 
-
 /* Responsividade */
 
-@media (max-width){
-  .intro h1{
+@media (max-width) {
+  .intro h1 {
     font-size: 3rem;
   }
 }
 
 /* Responsividade cabecalho */
-@media (max-width: 800px){
-  .cabecalho{
+@media (max-width: 800px) {
+  .cabecalho {
     flex-direction: column;
     gap: 40px;
     padding: 20px;
@@ -383,40 +382,40 @@
 
   /* responsividade introdução */
 
-  .intro{
+  .intro {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
   }
 
-  .intro h1{
-    font-size:2rem; 
+  .intro h1 {
+    font-size: 2rem;
   }
 
-  .intro h1::before{
+  .intro h1::before {
     height: 10px;
     width: 30px;
-    left: 0px; 
+    left: 0px;
   }
 
   /*Responsividade experiencia*/
 
-  .experiencia{
+  .experiencia {
     grid-template-columns: 1fr;
     gap: 40px;
   }
 
-  .experiencia h2{
+  .experiencia h2 {
     font-size: 3rem;
     text-transform: capitalize;
     max-width: initial !important;
     color: #141414;
   }
 
-  .experiencia-texto{
+  .experiencia-texto {
     font-size: 1.25rem;
   }
 
-  .experiencia-empresa-ano{
+  .experiencia-empresa-ano {
     position: initial;
     order: 1;
     width: initial;
@@ -425,29 +424,29 @@
 
   /* responsividade formacao */
 
-  .formacao-info{
+  .formacao-info {
     grid-template-columns: 1fr;
     padding: 60px 20px;
     gap: 40px;
   }
 
-  .formacao h2{
+  .formacao h2 {
     font-size: 3rem;
     text-transform: capitalize;
     max-width: initial !important;
     color: #fff;
   }
 
-  .formacao-info-texto{
+  .formacao-info-texto {
     font-size: 1.25rem;
   }
 
-  .formacoes-extras h3::before{
+  .formacoes-extras h3::before {
     position: initial;
     margin-bottom: 10px;
   }
 
-  .rodape-container{
+  .rodape-container {
     grid-template-columns: 1fr;
     gap: 40px;
   }
@@ -457,9 +456,8 @@
   }
 }
 
-
-@media (max-width: 400px){
-  .intro{
+@media (max-width: 400px) {
+  .intro {
     grid-template-columns: 1fr;
   }
 
@@ -467,8 +465,7 @@
     display: none;
   }
 
-  .experiencia-empresa{
+  .experiencia-empresa {
     grid-template-columns: 1fr;
   }
 }
-
