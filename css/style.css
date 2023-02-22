@@ -192,7 +192,7 @@
 }
 
 .formacao-info::after {
- display: block;
+  display: block;
   content: "";
   width: 130px;
   height: 100px;
@@ -201,7 +201,7 @@
   bottom: -50px;
   left: 20px;
 }
-.formacao-info h2{
+.formacao-info h2 {
   font-size: 8rem;
   max-width: 8ch;
   text-transform: uppercase;
@@ -211,8 +211,6 @@
   font-weight: bold;
   color: #000;
 }
-
-
 
 .formacao-info-texto {
   font-size: 1.5rem;
@@ -276,12 +274,11 @@
   font-size: 1.125rem;
 }
 
-.formacoes-extras-info{
+.formacoes-extras-info {
   margin-bottom: 60px;
 }
 
-
-.formacoes-extras h3{
+.formacoes-extras h3 {
   font-size: 0.875rem;
   color: #8f8f8f;
   line-height: 1.4;
@@ -290,7 +287,7 @@
   position: relative;
 }
 
-.formacoes-extras h3::before{
+.formacoes-extras h3::before {
   display: block;
   content: "";
   width: 24px;
@@ -300,27 +297,63 @@
   top: -4px;
 }
 
-
-
-.formacoes-extras-info h3::before{
+.formacoes-extras-info h3::before {
   background: url("../img/cursos.svg") no-repeat center center;
 }
 
-.formacoes-extra-idiomas h3::before{
+.formacoes-extra-idiomas h3::before {
   background: url("/img/idiomas.svg");
 }
 
-.formacoes-extras li{
+.formacoes-extras li {
   font-size: 1.125rem;
   line-height: 1.1;
   margin-bottom: 20px;
 }
 
-.formacoes-extras span{
+.formacoes-extras span {
   color: #8f8f8f;
 }
 
-.formacoes-extras-info li{
- display: flex;
- justify-content: space-between;
+.formacoes-extras-info li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rodape {
+  background: #000;
+}
+
+.rodape-container {
+  display: grid;
+  max-width: 1200px;
+  padding: 120px 20px 60px 20px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.rodape-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: #cccccc;
+}
+
+.rodape-contato li {
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.rodape-contato li a {
+  color: #fff;
+}
+
+.rodape-copy {
+  grid-column: 1 / -1;
+  font-size: 1.125rem;
+  color: #8f8f8f;
 }
